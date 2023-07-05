@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center
+}
+.img1 {
+    width: 150px; 
+    height: 42px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    
+
+
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: rgb(20, 220, 20);
+    text-decoration: none;
+}
+
+
+.articles {
+    display: flex;
+    justify-content: center;
+   gap: 20px;
+   text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 
+}
+.img-section {
+    height: 142px;
+    width: 142px;
+    
+}
+.articles article {
+    width: 20%;
+}
+
+.premium-text {
+    margin-top: 20px;
+    
+}
+.planes {
+    background-color: rgb(225, 227, 227);
+    margin-top: 50px;
+
+}
+.text-plan {
+    text-align: center; 
+    margin: 10px 10px 50px 10px
+}
+.tipos-planes {
+    border-color: black;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.title-planes {
+   padding-top: 20px 
+}
+.text-tipos-planes {
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.blue {
+    background-color: rgb(43, 85, 252);
+    width:fit-content;
+    border-radius: 5px;
+    text-align: left;
+    color: white;
+    padding: 5px 
+}
+
+.lista-planes {
+    list-style: none;
+    margin-bottom: 30px;
+   
+}
+
+.empezar {
+    background-color: black;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+    
+}
