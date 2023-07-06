@@ -12,13 +12,13 @@
     justify-content: space-between;
 
 }
+
 .line {
-    color: white;
-    display: inline-block;
-    height: 16px;
-    width: 0.5px;
-    background: currentColor;
-    margin: auto 17px;
+
+ background-color: black;
+ border-right: 1px white solid;
+ height: 18px;
+
 }
 .img1 {
     width: 150px; 
@@ -35,8 +35,8 @@
     list-style: none;
     display: flex;
     gap: 30px;
-    margin-left: 200px;
-    justify-content: 
+    margin-right: 100px;
+
 
 }
 
@@ -165,7 +165,7 @@ h2 {
     padding: 5px 
 }
 
-.line {
+.line2 {
     border-top: 2px solid black;
     width: 80%;
     
@@ -196,15 +196,15 @@ h2 {
     width: 150px; 
     height: 42px;
     margin:auto 17px;
-    padding: 100px 100px 0 
+    padding: 50px
 }
 footer {
     background-color: black;
     display: flex;
-    justify-content: left;
+    justify-content: space-around;
+    padding: 50px;
     color:white;
-    gap: 30px;
-    padding: 40px
+    flex-wrap: wrap;
 
 }
 .titulosfooter {
@@ -212,16 +212,41 @@ footer {
 
 }
 
-.menufooter {
-    list-style: none;
-    padding:15px;    
+footer section p {
+    
+    text-align: left;
 }
 
+.menufooter {
+    list-style: none;
+}
+   
+
 .menufooter li {
-    padding:10px;
+    padding: 10px 0px 
     
 }
 
+
+.menufooter a {
+    color: white;
+    text-decoration: none;
+}
+
+.menufooter a:hover {
+    color: rgb(20, 220, 20);
+   
+}
+
+.rrss {
+    margin-right: 100px;
+    display:flex;
+    gap:25px
+}
+.redes {
+    height: 50px;
+    background-color: white;
+}
 @media(max-width: 720px) {
     .menu {
         display: none;
